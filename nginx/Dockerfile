@@ -18,3 +18,4 @@ RUN mkdir -p /usr/share/nginx/www/_ah && \
 
 # Finally, all static assets.
 ADD www/ /usr/share/nginx/www/
+RUN chmod -R a+r /usr/share/nginx/www
