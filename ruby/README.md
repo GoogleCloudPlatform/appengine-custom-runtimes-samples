@@ -9,4 +9,4 @@ Simple sample of a [Sinatra][http://www.sinatrarb.com/] app that runs on [Google
 
 ## Deploy
 
-    $ gcloud preview app deploy
+    $ gcloud app deploy

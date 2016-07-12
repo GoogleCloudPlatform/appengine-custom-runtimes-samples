@@ -20,7 +20,7 @@ Some samples in this repositories may have special deployment instructions. Refe
 3. Use gcloud to deploy your app.
 
    ```
-   gcloud preview app deploy
+   gcloud app deploy
    ```
 
 4. Congratulations!  Your application is now live at `your-app-id.appspot.com`
