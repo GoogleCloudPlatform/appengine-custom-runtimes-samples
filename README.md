@@ -1,6 +1,6 @@
 ## Google App Engine Custom Runtime Samples
 
-These are samples for creating custom runtimes on Google App Engine Managed VMs. These samples are typically referenced from the [docs](https://cloud.google.com/appengine/docs).
+These are samples for creating custom runtimes on Google App Engine Flexible. These samples are typically referenced from the [docs](https://cloud.google.com/appengine/docs).
 
 See our other [Google Cloud Platform github repos](https://github.com/GoogleCloudPlatform) for sample applications and
 scaffolding for other frameworks and use cases.
