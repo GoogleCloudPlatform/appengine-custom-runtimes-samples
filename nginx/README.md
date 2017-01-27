@@ -1,6 +1,6 @@
-# Nginx custom runtime for App Engine
+# Nginx Custom Runtime for App Engine
 
-Simple sample of a [nginx](http://nginx.org/) app that runs on [Google App Engine Flexible](https://cloud.google.com/appengine) using the [`nginx`](https://hub.docker.com/_/nginx/) offical Docker image.
+Simple sample of an [nginx](http://nginx.org/) app that runs on [Google App Engine](https://cloud.google.com/appengine) using the [`nginx`](https://hub.docker.com/_/nginx/) offical Docker image.
 
 ## Details
 
