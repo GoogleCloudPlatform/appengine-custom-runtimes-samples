@@ -1,6 +1,6 @@
-# Perl example on Google App Engine Flexible
+# Perl example on Google App Engine
 
-This is a simple guide to running mojolicious on [Google App Engine Flexible](https://cloud.google.com/appengine).
+This is a simple guide to running mojolicious on [Google App Engine](https://cloud.google.com/appengine).
 
 1. [Create a new mojolicious app](http://mojolicio.us/)
 
