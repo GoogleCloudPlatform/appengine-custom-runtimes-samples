@@ -2,7 +2,8 @@
 FROM ibmcom/swift-ubuntu
 
 # Add current application
-ADD . .
+ADD . /app
+WORKDIR /app
 
 # Build release.
 RUN swift build --configuration release
