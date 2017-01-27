@@ -2,7 +2,8 @@
 FROM elixir
 
 # Add current Mix project
-ADD . .
+ADD . /app
+WORKDIR /app
 
 # Install package managers
 RUN mix local.hex --force
