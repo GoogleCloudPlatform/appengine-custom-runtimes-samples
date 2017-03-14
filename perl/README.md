@@ -8,7 +8,7 @@ Simple guide to running Mojolicious on [Google App Engine](https://cloud.google.
 
     ```yaml
     runtime: custom
-    vm: true
+    env: flex
     ```
 
 3. Create a [`Dockerfile`](Dockerfile) in the root of your application.
