@@ -1,3 +1,6 @@
+# Using https://pub.dartlang.org/packages/pedantic
+include: package:pedantic/analysis_options.yaml
+
 analyzer:
 #   exclude:
 #     - path/to/excluded/files/**

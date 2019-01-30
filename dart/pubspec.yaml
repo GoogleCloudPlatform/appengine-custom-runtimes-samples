@@ -1,11 +1,12 @@
-name: dart
-description: An absolute bare-bones web app.
+name: dart_custom_runtime
+description: Dart custom runtime for Google App Engine.
 version: 1.0.0
-author: Brett Morgan 
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
 
+dependencies:
+  http_server: ^0.9.8+1
+
 dev_dependencies:
-  build_runner: ^1.1.2
-  build_web_compilers: ^1.0.0
+  pedantic: '1.1.0'
