@@ -1,3 +1,3 @@
 ## 1.0.0
 
-- Initial version, created by Stagehand
+- Sample based on https://github.com/dart-lang/dart_docker/tree/master/hello
