@@ -9,9 +9,10 @@ import 'package:http_server/http_server.dart';
 
 void main() {
   var webFiles = new VirtualDirectory('web');
+  final port = int.parse(Platform.environment['PORT'] ?? '8080');
 
   runZoned(() {
-    HttpServer.bind('0.0.0.0', 8080).then((server) {
+    HttpServer.bind('0.0.0.0', port).then((server) {
       server.listen((request) {
         if (request.uri.path == '/') {
           request.response.redirect(request.uri.resolve('/index.html'));
