@@ -8,7 +8,7 @@ import 'dart:io';
 import 'package:http_server/http_server.dart';
 
 void main() {
-  var webFiles = new VirtualDirectory('web');
+  final webFiles = new VirtualDirectory('web');
   final port = int.parse(Platform.environment['PORT'] ?? '8080');
 
   runZoned(() {
