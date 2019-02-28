@@ -11,3 +11,6 @@ RUN bundle install --deployment --without="development test"
 ENV RACK_ENV=production \
     RAILS_ENV=production \
     RAILS_SERVE_STATIC_FILES=true    
+
+CMD ["bundle", "exec", "ruby", "app.rb"]
+
