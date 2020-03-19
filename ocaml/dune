@@ -1,0 +1,8 @@
+(executable
+ (name      app)
+ (libraries core
+ 	    cohttp
+	    async
+	    cohttp-async
+	    cryptokit
+	    yojson))
