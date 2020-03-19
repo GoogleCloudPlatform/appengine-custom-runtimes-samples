@@ -2,3 +2,4 @@
 *#
 dune-project
 _build
+.merlin
